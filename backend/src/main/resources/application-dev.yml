@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "elfalyze"
+
+app:
+  name: ${spring.application.name}
+  version:
+    major: 0
+    minor: 1
+    patch: 0
