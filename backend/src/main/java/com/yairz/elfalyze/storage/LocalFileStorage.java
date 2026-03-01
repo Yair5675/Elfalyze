@@ -1,6 +1,6 @@
-package com.yairz.elfalyze.data.files;
+package com.yairz.elfalyze.storage;
 
-import com.yairz.elfalyze.data.files.exceptions.FileStorageException;
+import com.yairz.elfalyze.exceptions.storage.FileStorageException;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,8 +1,8 @@
-package com.yairz.elfalyze.data.files.creators;
+package com.yairz.elfalyze.storage.creators;
 
-import com.yairz.elfalyze.data.files.FileStorage;
-import com.yairz.elfalyze.data.files.LocalFileStorage;
-import com.yairz.elfalyze.data.files.exceptions.FileStorageCreationException;
+import com.yairz.elfalyze.storage.FileStorage;
+import com.yairz.elfalyze.storage.LocalFileStorage;
+import com.yairz.elfalyze.exceptions.storage.FileStorageCreationException;
 
 import java.io.IOException;
 import java.nio.file.Files;

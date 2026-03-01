@@ -1,4 +1,4 @@
-package com.yairz.elfalyze.data.files.exceptions;
+package com.yairz.elfalyze.exceptions.storage;
 
 public class FileStorageCreationException extends RuntimeException {
     public FileStorageCreationException() {

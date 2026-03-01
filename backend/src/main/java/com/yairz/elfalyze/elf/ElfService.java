@@ -1,9 +1,10 @@
-package com.yairz.elfalyze.data.elf;
+package com.yairz.elfalyze.elf;
 
-import com.yairz.elfalyze.data.elf.exceptions.ElfServiceException;
-import com.yairz.elfalyze.data.files.FileId;
-import com.yairz.elfalyze.data.files.FileStorage;
-import com.yairz.elfalyze.data.files.exceptions.FileStorageException;
+import com.yairz.elfalyze.util.Sha256;
+import com.yairz.elfalyze.exceptions.elf.ElfServiceException;
+import com.yairz.elfalyze.storage.FileId;
+import com.yairz.elfalyze.storage.FileStorage;
+import com.yairz.elfalyze.exceptions.storage.FileStorageException;
 import jakarta.annotation.Nullable;
 import org.jspecify.annotations.NonNull;
 import org.springframework.stereotype.Service;

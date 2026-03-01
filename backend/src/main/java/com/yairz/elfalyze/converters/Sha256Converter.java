@@ -1,6 +1,6 @@
-package com.yairz.elfalyze.data.converters;
+package com.yairz.elfalyze.converters;
 
-import com.yairz.elfalyze.data.elf.Sha256;
+import com.yairz.elfalyze.util.Sha256;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

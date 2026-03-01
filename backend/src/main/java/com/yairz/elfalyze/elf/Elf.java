@@ -1,9 +1,10 @@
-package com.yairz.elfalyze.data.elf;
+package com.yairz.elfalyze.elf;
 
 
-import com.yairz.elfalyze.data.converters.FileIdConverter;
-import com.yairz.elfalyze.data.converters.Sha256Converter;
-import com.yairz.elfalyze.data.files.FileId;
+import com.yairz.elfalyze.converters.FileIdConverter;
+import com.yairz.elfalyze.converters.Sha256Converter;
+import com.yairz.elfalyze.util.Sha256;
+import com.yairz.elfalyze.storage.FileId;
 import jakarta.persistence.*;
 
 import java.time.Instant;
