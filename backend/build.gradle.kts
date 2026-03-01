@@ -27,8 +27,12 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+
+	implementation("org.springframework.boot:spring-boot-h2console")
+	runtimeOnly("com.h2database:h2")
 
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
