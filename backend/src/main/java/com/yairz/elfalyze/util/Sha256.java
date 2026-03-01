@@ -1,4 +1,4 @@
-package com.yairz.elfalyze.data.elf;
+package com.yairz.elfalyze.util;
 
 import org.jspecify.annotations.NonNull;
 

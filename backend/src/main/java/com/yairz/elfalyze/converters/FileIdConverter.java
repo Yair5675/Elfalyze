@@ -1,6 +1,6 @@
-package com.yairz.elfalyze.data.converters;
+package com.yairz.elfalyze.converters;
 
-import com.yairz.elfalyze.data.files.FileId;
+import com.yairz.elfalyze.storage.FileId;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

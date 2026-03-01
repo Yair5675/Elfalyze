@@ -1,4 +1,4 @@
-package com.yairz.elfalyze.data.elf.exceptions;
+package com.yairz.elfalyze.exceptions.elf;
 
 public class ElfServiceException extends Exception {
     public ElfServiceException() {

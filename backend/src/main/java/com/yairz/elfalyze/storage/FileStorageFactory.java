@@ -1,8 +1,8 @@
-package com.yairz.elfalyze.data.files;
+package com.yairz.elfalyze.storage;
 
-import com.yairz.elfalyze.data.files.creators.FileStorageCreator;
-import com.yairz.elfalyze.data.files.creators.LocalFileStorageCreator;
-import com.yairz.elfalyze.data.files.exceptions.FileStorageCreationException;
+import com.yairz.elfalyze.storage.creators.FileStorageCreator;
+import com.yairz.elfalyze.storage.creators.LocalFileStorageCreator;
+import com.yairz.elfalyze.exceptions.storage.FileStorageCreationException;
 
 import java.util.Map;
 

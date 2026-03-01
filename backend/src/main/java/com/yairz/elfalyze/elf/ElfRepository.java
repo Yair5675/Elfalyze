@@ -1,4 +1,4 @@
-package com.yairz.elfalyze.data.elf;
+package com.yairz.elfalyze.elf;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
