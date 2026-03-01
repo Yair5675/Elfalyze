@@ -38,3 +38,6 @@ out/
 
 # Local file storage:
 file-storage/
+
+# Dev database:
+/data/

@@ -1,6 +1,19 @@
 spring:
   application:
     name: "elfalyze"
+  # TODO - Switch to PostgreSQL in the future
+  datasource:
+    url: jdbc:h2:file:./data/elfalyze-prod
+    driver-class-name: org.h2.Driver
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: false
 
 app:
   name: ${spring.application.name}

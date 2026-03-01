@@ -1,6 +1,15 @@
 spring:
   application:
     name: "elfalyze"
+  # In-memory H2 database:
+  datasource:
+    url: jdbc:h2:file:./data/elfalyze-dev
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+
 
 app:
   name: ${spring.application.name}
