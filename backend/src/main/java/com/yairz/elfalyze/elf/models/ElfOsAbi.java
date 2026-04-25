@@ -1,5 +1,7 @@
 package com.yairz.elfalyze.elf.models;
 
+import org.jetbrains.annotations.VisibleForTesting;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,7 +32,7 @@ public final class ElfOsAbi {
 
     private final int osAbiCode;
 
-    // Visible For Testing
+    @VisibleForTesting
     ElfOsAbi(int osAbiCode) {
         this.osAbiCode = osAbiCode;
     }

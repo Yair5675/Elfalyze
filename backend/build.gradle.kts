@@ -26,6 +26,7 @@ repositories {
 }
 
 dependencies {
+	compileOnly("org.jetbrains:annotations:24.0.1")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
