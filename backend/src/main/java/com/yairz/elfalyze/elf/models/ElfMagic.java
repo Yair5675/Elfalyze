@@ -1,5 +1,7 @@
 package com.yairz.elfalyze.elf.models;
 
+import org.jetbrains.annotations.VisibleForTesting;
+
 public final class ElfMagic {
 
     public static final int MAGIC_SIZE = 4;
@@ -12,7 +14,7 @@ public final class ElfMagic {
     private final byte mag3;
     private final byte mag4;
 
-    // Visible For Testing
+    @VisibleForTesting
     ElfMagic(byte mag1, byte mag2, byte mag3, byte mag4) {
         this.mag1 = mag1;
         this.mag2 = mag2;
